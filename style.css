@@ -1,0 +1,143 @@
+body {
+    display: flex;
+    flex-direction: column;
+    font-family: 'Roboto', Helvetica, sans-serif;
+    min-height: 100vh;
+    flex-basis: auto;
+}
+
+.top {
+    display: flex;
+    flex-direction: column;
+    flex: auto;
+    background-color: #1F2937;
+    margin: 0;
+}
+
+.logo {
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+    margin-bottom: auto;
+    font-size: 24px;
+    color: #F9FAF8;
+    padding: 8px;
+}
+
+.header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0;
+    margin-bottom: auto;
+}
+
+ul {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    gap: 2em;
+}
+
+.head-link {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0;
+    gap: 2em;
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.awesome {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+    flex-grow: 0;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    flex: 1;
+}
+
+.heading {
+    display: flex;
+    text-wrap: wrap;
+    font-size: 36x;
+    color: #F9FAF8;
+    font-weight: 900;
+}
+
+.description {
+    display: flex;
+    justify-content: center;
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.cont-img {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    flex: 1;
+    height: 250px;
+    text-align: center;
+}
+
+button {
+    display: flex;
+    align-items: start;
+    background-color: #3882f6;
+    color: white;
+    border-radius: 5px;
+    font-size: 18px;
+    padding: 8px 24px;
+    text-align: center;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.info {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 900;
+}
+
+.bulk {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 150px;
+    padding: 20px;
+    text-align: center;
+    text-wrap: wrap;
+}
+
+li img {
+    height: 100px;
+    border: 3px solid #3882f6;
+    border-radius: 5px;
+}
