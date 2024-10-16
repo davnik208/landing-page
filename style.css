@@ -264,8 +264,8 @@ footer {
     display: flex;
     flex-direction: column;
     justify-content: end;
-    background-color: #E5E7EB;
-    height: 20px;
+    background-color: #1F2937;
+    height: 50px;
 
 }
 
@@ -273,5 +273,6 @@ footer {
     display: flex;
     justify-content: space-around;
     align-items: center;
+    color: #F9FAF8;
     padding: 8px;
 }
